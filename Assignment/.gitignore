@@ -1,0 +1,17 @@
+*.pyc
+*.DS_Store
+/.idea
+/venv
+__pycache__/
+static/
+.coverage
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
