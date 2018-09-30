@@ -1,3 +1,5 @@
+Run this project and use postman for api test make sure you enter correct detail in setting for email to sent link on email
+
 ##How To Run project:
 ## SIMPLE USER MANAGEMENT
 
@@ -22,9 +24,9 @@ Install python 3
 
 
 
-####Sample Output
+### Sample Output
 
-########POST API: 
+######## POST API: 
 /user/register/
 
 	INPUT:
@@ -53,7 +55,7 @@ Install python 3
 		}
 	
 
-########GET API:
+######## GET API:
 http://127.0.0.1:8000/user/login/?Content-Type=application/json&email=ramnivas@gmail.com&password=123456
 
 OUTPUT:
@@ -88,7 +90,7 @@ OR
 }
 
 
-#####Account ACTIVATE
+##### Account ACTIVATE
 
 get from email this type of link
 
@@ -96,7 +98,7 @@ get from email this type of link
 
 
 ###########
-####################responce:
+#################### responce:
 
 
 
@@ -119,11 +121,11 @@ If already activated then
 
 
 
-###########Write Data
+########### Write Data
 
 http://127.0.0.1:8000/user/content-post/?token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthYmVAYmk2ZzRmMnR1YmUuY29tIiwidXNlcl9pZCI6NywidXNlcm5hbWUiOiJyYW02Z252ZjRpYXMxIiwiZXhwIjoxNTY5ODM4MzczfQ.n7gk3JmwOeNIAJ4ptMNLoymqHkolfDUNvL_2oSbTvGE
 
-####################Responce
+#################### Responce
 {
     "message": "Successfully written data ",
     "status": true
@@ -132,7 +134,7 @@ http://127.0.0.1:8000/user/content-post/?token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5
 
 
 
-#########Retrive API
+######### Retrive API
 
 http://127.0.0.1:8000/user/content-get/?token=Bearer%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJ1c2VybmFtZSI6ImFudWoiLCJleHAiOjE1Njk4MzkxMzAsImVtYWlsIjoiYW51akBnbWFpbC5jb20ifQ.aLT8OdoyxrQ6fHC89DikovGiSiMyue2r_C_jegae-0Y
 
