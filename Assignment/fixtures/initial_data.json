@@ -1,0 +1,22 @@
+[
+
+  {
+    "fields": {
+      "email": "admin@example.com",
+      "is_staff": true,
+      "date_joined": "2018-09-28T12:39:36Z",
+      "password": "pbkdf2_sha256$120000$TpiUUII1DKtW$UMD0ZyoIVQ1Jk3PyhjBP6/hKrhW/kLLEFDVCSWTxFvQ=",
+      "user_permissions": [],
+      "groups": [],
+      "is_active": true,
+      "is_superuser": true,
+      "last_name": "user",
+      "username": "admin@example.com",
+      "last_login": "2015-09-07T15:00:17Z",
+      "first_name": "admin"
+    },
+    "model": "auth.user",
+    "pk": 1
+  }
+
+]

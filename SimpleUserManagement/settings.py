@@ -160,7 +160,7 @@ STATIC_URL = '/static/'
 
 EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_PASSWORD = 'SG.PCz6wj27ROmjhQXVQf3UAg.DuURjSXlmZn83M6EMD_8c3TCJ-K1TalnUn8h0yf_HXMMM'#incorrect password
+EMAIL_HOST_PASSWORD = 'SG.PCz6wj27ROmjhQXVQf3UAg.DuURjSXlfcvgbdfgfgmZn83M6EMD_8c3TCJ-K1TalnUn8h0yf_HXM'#incorrect password
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

@@ -64,7 +64,7 @@ class UserRegister(GenericAPIView):
                     payload = utils.jwt_payload_handler(user)
                     token = utils.jwt_encode_handler(payload)
 
-                    send_email_notification(receiver='kabe@bit2tube.com', token='?token=Bearer%20'+ token)
+                    send_email_notification(receiver=user_email, token='?token=Bearer%20'+ token)
                     content = {
                         'user': {
                             'username': user.get_username(),
@@ -212,7 +212,9 @@ class ContentGet(GenericAPIView):
 
                 return Response({'status': True,
                                      'data':result},
-                                     status=status.HTTP_200_OK)
+                                   status=status.HTTP_200_OK)
+            return Response({"Error": "Unauthorized access", "status": False},
+                            status=status.HTTP_401_UNAUTHORIZED)
         except Exception as e:
             logging.exception(str(e))
             return Response({"Error":str(e),"status":False}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

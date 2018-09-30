@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a87ebefc-cbdc-4b5f-a6fa-8fc074e79528" name="Default Changelist" comment="" />
+    <list default="true" id="a87ebefc-cbdc-4b5f-a6fa-8fc074e79528" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment/fixtures/initial_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f1d96d7-18d7-4f51-b8b8-3228cf9cb71e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f1d96d7-18d7-4f51-b8b8-3228cf9cb71e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0002_auto_20180929_1645.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0003_auto_20180929_1831.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0004_auto_20180929_1846.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0005_auto_20180929_1854.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0006_auto_20180929_1903.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0007_auto_20180929_1905.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0008_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/migrations/0009_remove_profile_activation_key.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleUserManagement/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleUserManagement/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +44,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
       </path>
@@ -51,35 +70,46 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="assignment_profile" value="1" />
-          <entry key="assignment_textentry" value="2" />
-          <entry key="auth_permission" value="1" />
-          <entry key="auth_user" value="2" />
-          <entry key="md" value="1" />
-          <entry key="py" value="23" />
+          <entry key="assignment_profile" value="2" />
+          <entry key="assignment_textentry" value="3" />
+          <entry key="auth_group" value="1" />
+          <entry key="auth_group_permissions" value="1" />
+          <entry key="auth_permission" value="2" />
+          <entry key="auth_user" value="3" />
+          <entry key="auth_user_groups" value="1" />
+          <entry key="auth_user_user_permissions" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="json" value="1" />
+          <entry key="md" value="2" />
+          <entry key="py" value="31" />
           <entry key="sql" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="6" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="23" />
+          <entry key="Database Element" value="14" />
+          <entry key="JSON" value="1" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="31" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="30" />
-          <entry key="py" value="2639" />
+          <entry key="cell" value="40" />
+          <entry key="json" value="3" />
+          <entry key="md" value="572" />
+          <entry key="py" value="2661" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2639" />
-          <entry key="Scratch" value="30" />
+          <entry key="JSON" value="3" />
+          <entry key="Markdown" value="572" />
+          <entry key="Python" value="2661" />
+          <entry key="Scratch" value="40" />
         </counts>
       </usages-collector>
     </session>
@@ -90,20 +120,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="116" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1538256810170" expanded="true" signature="423:428" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://4f1d96d7-18d7-4f51-b8b8-3228cf9cb71e/schema/main/table/assignment_profile">
+        <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/auth_user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -112,13 +129,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment/notification.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="247">
+                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -126,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="133">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -138,28 +155,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
+            <state relative-caret-position="465">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1538258124291" expanded="true" signature="776:845" ph="..." />
-                <marker date="1538258124291" expanded="true" signature="4726:4731" ph="..." />
-                <marker date="1538258124291" expanded="true" signature="6750:6755" ph="..." />
-                <marker date="1538258124291" expanded="true" signature="8924:8925" ph="..." />
-                <marker date="1538258124291" expanded="true" signature="8924:8929" ph="..." />
+                <marker date="1538302328777" expanded="true" signature="776:845" ph="..." />
+                <marker date="1538302328777" expanded="true" signature="4717:4722" ph="..." />
+                <marker date="1538302328777" expanded="true" signature="6741:6746" ph="..." />
+                <marker date="1538302328777" expanded="true" signature="9057:9058" ph="..." />
+                <marker date="1538302328777" expanded="true" signature="9057:9062" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="544">
-                <caret line="66" selection-start-line="66" selection-end-line="66" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -167,19 +172,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/rest_framework/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="479" selection-start-line="479" selection-end-line="479" />
+            <state relative-caret-position="322">
+              <caret line="485" selection-start-line="485" selection-end-line="485" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://4f1d96d7-18d7-4f51-b8b8-3228cf9cb71e/schema/main/table/auth_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/Assignment/notification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SimpleUserManagement/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="162" column="67" selection-start-line="162" selection-start-column="67" selection-end-line="162" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment/migrations/0001_initial.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -194,11 +216,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SimpleUserManagement/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2318">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/auth_permission">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -217,8 +239,10 @@
         <option value="$PROJECT_DIR$/Assignment/urls.py" />
         <option value="$PROJECT_DIR$/Assignment/notification.py" />
         <option value="$PROJECT_DIR$/Assignment/models.py" />
-        <option value="$PROJECT_DIR$/Assignment/views.py" />
         <option value="$PROJECT_DIR$/Assignment/readme.md" />
+        <option value="$PROJECT_DIR$/Assignment/fixtures/initial_data.json" />
+        <option value="$PROJECT_DIR$/Assignment/views.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/SimpleUserManagement/settings.py" />
       </list>
     </option>
@@ -279,6 +303,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Assignment" />
       <recent name="$PROJECT_DIR$/SimpleUserManagement" />
@@ -369,20 +396,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-4" width="1857" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.5007587" side_tool="true" weight="0.24986118" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924126" visible="true" weight="0.24986118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924126" visible="true" weight="0.24986118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.20855615" />
+      <window_info anchor="bottom" id="Terminal" weight="0.371123" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.315508" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.315508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29518718" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,33 +508,63 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment/views.py</url>
-          <line>241</line>
+          <line>243</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment/views.py</url>
-          <line>243</line>
+          <line>245</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment/views.py</url>
-          <line>236</line>
+          <line>238</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment/views.py</url>
-          <line>231</line>
+          <line>233</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment/views.py</url>
-          <line>228</line>
+          <line>230</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment/views.py</url>
-          <line>230</line>
+          <line>232</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment/views.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment/views.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment/views.py</url>
+          <line>185</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment/views.py</url>
+          <line>188</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment/notification.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment/notification.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -606,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment/notification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -627,12 +675,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/auth/base_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment/fixtures/initial_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://4f1d96d7-18d7-4f51-b8b8-3228cf9cb71e/schema/main/table/auth_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/auth_user_groups">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/auth_user_user_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/assignment_profile">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/assignment_textentry">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/auth_group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/auth_group_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SimpleUserManagement/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -646,48 +760,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="133">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/auth/base_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+    <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/auth_permission">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/rest_framework/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="479" selection-start-line="479" selection-end-line="479" />
+        <state relative-caret-position="322">
+          <caret line="485" selection-start-line="485" selection-end-line="485" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment/notification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
+        <state relative-caret-position="465">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1538258124291" expanded="true" signature="776:845" ph="..." />
-            <marker date="1538258124291" expanded="true" signature="4726:4731" ph="..." />
-            <marker date="1538258124291" expanded="true" signature="6750:6755" ph="..." />
-            <marker date="1538258124291" expanded="true" signature="8924:8925" ph="..." />
-            <marker date="1538258124291" expanded="true" signature="8924:8929" ph="..." />
+            <marker date="1538302328777" expanded="true" signature="776:845" ph="..." />
+            <marker date="1538302328777" expanded="true" signature="4717:4722" ph="..." />
+            <marker date="1538302328777" expanded="true" signature="6741:6746" ph="..." />
+            <marker date="1538302328777" expanded="true" signature="9057:9058" ph="..." />
+            <marker date="1538302328777" expanded="true" signature="9057:9062" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment/readme.md">
+    <entry file="das://77507641-0b92-44cf-bfdd-f52160ea620f/schema/main/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="544">
-            <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <first_editor relative-caret-position="247">
+            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           </first_editor>
           <second_editor />
         </state>
@@ -695,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SimpleUserManagement/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="408">
+          <caret line="162" column="67" selection-start-line="162" selection-start-column="67" selection-end-line="162" selection-end-column="67" />
         </state>
       </provider>
     </entry>
